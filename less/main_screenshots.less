@@ -1,0 +1,42 @@
+.main__screen {
+  .section;
+  height: 480px;
+
+  &__title {
+    .sectiontitle;
+    display: block;
+  }
+
+  &__wrap {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      &__item {
+        width: 48.73%;
+        margin: 0 15px 30px 0;
+
+        img {
+            width: 200px;
+            height: 148px;
+            background-color: @bgcGrey;
+            float: left;
+            margin: 0 15px 0 0;
+        }
+
+        &__title {
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 16px;
+            margin: 0;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+            margin: 11px 0 0 0;
+        }
+      }
+  }
+}
