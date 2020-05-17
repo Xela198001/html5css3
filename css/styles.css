@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Socialico";
+  src: url("../../fonts/Socialico.eot?") format("eot"), url("../../fonts/Socialico.woff") format("woff"), url("../../fonts/Socialico.ttf") format("truetype"), url("../../fonts/Socialico.svg#Socialico") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1280px;
+}
+.header {
+  width: 1280px;
+  height: 325px;
+  margin: 0 auto;
+  background-color: #445162;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.header__text {
+  color: #fff;
+}
+.header__text h1 {
+  font-size: 60px;
+  font-weight: 300;
+  box-sizing: border-box;
+  margin: -8px 0 50px -3px;
+  line-height: 60px;
+}
+.header__text__list {
+  list-style-type: none;
+  padding: 0 0 0 27px;
+  margin: -17px 0 0 0;
+}
+.header__text__list__item {
+  margin: 0;
+  position: relative;
+  line-height: 36px;
+  font-size: 20px;
+  padding: 0 0 0 8px;
+}
+.header__text__list__item::before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  background-image: url(../img/v.png);
+  background-size: cover;
+  position: absolute;
+  top: 4px;
+  left: -27px;
+}
+.header__img {
+  width: 469px;
+  height: 213px;
+  background-color: #fff;
+}
+.main__about {
+  width: 100%;
+  min-height: 335px;
+  background-color: #fff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.main__about__text {
+  width: 400px;
+  width: 670px;
+  float: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+}
+.main__about__text__header {
+  font-size: 30px;
+  color: #445161;
+}
+.main__about__img {
+  float: right;
+  width: 430px;
+  height: 245px;
+  background-color: #445161;
+}
+.main__dignity {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 50px 50px 20px;
+  box-sizing: border-box;
+}
+.main__dignity__header {
+  width: 100%;
+  margin: 0 0 24px 0;
+  text-align: center;
+  font-family: arial;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+}
+.main__dignity__wrap {
+  width: 50%;
+}
+.main__dignity__item {
+  box-sizing: border-box;
+  position: relative;
+}
+.main__dignity__item summary {
+  margin: 0 0 26px 42px;
+  line-height: 24px;
+}
+.main__dignity__item summary::-webkit-details-marker {
+  display: none;
+}
+.main__dignity__item summary::before {
+  content: "";
+  display: block;
+  background-image: url(../img/plus.png);
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
