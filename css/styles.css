@@ -188,3 +188,8 @@ body {
   line-height: 24px;
   margin: 11px 0 0 0;
 }
+.main__reviews {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+}
