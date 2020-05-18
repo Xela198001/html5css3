@@ -356,5 +356,102 @@ body {
   padding: 50px;
   box-sizing: border-box;
   min-height: 535px;
+  color: #fff;
   background-color: #445161;
+}
+.footer__title {
+  margin: 0 0 24px 0;
+  text-align: center;
+  font-family: arial;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  width: 100%;
+  height: 34px;
+  display: block;
+  color: #fff;
+  margin-bottom: 19px;
+  line-height: 24px;
+}
+.footer__message {
+  width: 60%;
+  float: left;
+  text-align: center;
+  padding: 0 0 0 190px;
+  box-sizing: border-box;
+}
+.footer__message .name,
+.footer__message .email,
+.footer__message .message {
+  width: 500px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  margin: 0 0 20px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+.footer__message .message {
+  height: 170px;
+}
+.footer__message .send {
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.footer__contact {
+  width: 37.6%;
+  float: right;
+}
+.footer__contact__list {
+  list-style: none;
+  position: relative;
+  margin: 0;
+}
+.footer__contact__list__item {
+  line-height: 40px;
+  position: relative;
+}
+.footer__contact__list__item.item__skype:before {
+  content: "";
+  background-image: url(../img/skypeicon.png);
+  position: absolute;
+  top: 5px;
+  left: -31px;
+  background-size: cover;
+  width: 25px;
+  height: 27px;
+}
+.footer__contact__list__item.item__icq:before {
+  content: "";
+  background-image: url(../img/icq\ icon.png);
+  position: absolute;
+  top: 5px;
+  left: -31px;
+  background-size: cover;
+  width: 25px;
+  height: 27px;
+}
+.footer__contact__list__item.item__email:before {
+  content: "";
+  background-image: url(../img/email\ icon.png);
+  position: absolute;
+  top: 5px;
+  left: -31px;
+  background-size: cover;
+  width: 25px;
+  height: 27px;
+}
+.footer__contact__list__item.item__phone:before {
+  content: "";
+  background-image: url(../img/phone\ icon.png);
+  position: absolute;
+  top: 5px;
+  left: -31px;
+  background-size: cover;
+  width: 25px;
+  height: 27px;
 }
