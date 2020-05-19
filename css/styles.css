@@ -355,9 +355,9 @@ body {
   width: 100%;
   padding: 50px;
   box-sizing: border-box;
-  min-height: 535px;
   color: #fff;
   background-color: #445161;
+  padding: 50px 0 0 0;
 }
 .footer__title {
   margin: 0 0 24px 0;
@@ -378,8 +378,9 @@ body {
   width: 60%;
   float: left;
   text-align: center;
-  padding: 0 0 0 190px;
+  padding: 0 0 0 226px;
   box-sizing: border-box;
+  margin: 0 0 52px 0px;
 }
 .footer__message .name,
 .footer__message .email,
@@ -401,9 +402,14 @@ body {
   border: none;
   border-radius: 4px;
   background-color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 42px;
+  color: #445161;
 }
 .footer__contact {
-  width: 37.6%;
+  width: 38.6%;
   float: right;
 }
 .footer__contact__list {
@@ -454,6 +460,21 @@ body {
   background-size: cover;
   width: 28px;
   height: 28px;
+}
+.footer__contact__social {
+  margin: 27px 0 0 7px;
+}
+.footer__copyright {
+  display: block;
+  clear: both;
+  background-color: #fff;
+  color: #445161;
+  margin: 0;
+  min-height: 25px;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 27px;
 }
 .social__link__twetter,
 .social__link__facebook,
