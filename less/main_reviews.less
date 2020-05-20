@@ -33,19 +33,15 @@
       & figcaption:before {
         content: "";
         display: inline-block;
-        width: 0;
-        height: 0;
         position: absolute;
         top: 24px;
         left: -12px;
         border-style: solid;
         border-width: 12px 12px 12px 0;
         border-color: transparent #ebebeb transparent transparent;
-    }
+      }
 
       img {
-        width: 75px;
-        height: 75px;
         border-radius: 50%;
         background-color: @bgcGrey;
         float: left;
@@ -59,19 +55,17 @@
       }
 
       &__author {
-          color: #989898;
-          margin: 14px 0 0 0;
+        color: #989898;
+        margin: 14px 0 0 0;
       }
     }
 
-    &__item:nth-child(2n)  {
-        margin: 0 0 1px 30px;
-
+    &__item:nth-child(2n) {
+      margin: 0 0 1px 30px;
     }
 
-    &__item:nth-child(2n+1)  {
-        margin: 0 0 14px 0;
-
+    &__item:nth-child(2n + 1) {
+      margin: 0 0 14px 0;
     }
   }
 }
