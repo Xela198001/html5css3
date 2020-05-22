@@ -16,7 +16,7 @@
     flex-direction: row;
     align-items: flex-end;
 
-    & section {
+    &__card {
       width: 300px;
       background-color: @bgcGrey;
       border-radius: 5px;
@@ -24,44 +24,59 @@
       padding: 0;
       border: 2px solid @bgcGrey;
       box-sizing: border-box;
-    }
 
-    &__standart__title,
-    &__premium__title,
-    &__lux__title {
-      display: block;
-      color: #fff;
-      font-size: 24px;
-      font-weight: 300;
-      line-height: 30px;
-      text-align: center;
-      padding: 13px 0;
-      margin: 0;
-    }
+      &__title {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+        padding: 13px 0;
+        margin: 0;
+      }
 
-    &__standart__price,
-    &__premium__price,
-    &__lux__price {
-      display: block;
-      background-color: #fff;
-      color: @bgcGrey;
-      font-size: 40px;
-      font-weight: 300;
-      line-height: 30px;
-      text-align: center;
-      padding: 16px 0;
-    }
+      &__price {
+        display: block;
+        background-color: #fff;
+        color: @bgcGrey;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+        padding: 16px 0;
+      }
 
-    &__standart {
-      min-height: 306px;
-    }
+      &__btn {
+        display: block;
+        background-color: #fff;
+        border: 1px solid #fff;
+        width: 259px;
+        min-height: 40px;
+        border-radius: 4px;
+        margin: 0 auto 20px;
 
-    &__premium {
-      min-height: 405px;
-    }
+        &:hover {
+          background-color: @bgcGrey;
+          border: 1px solid #fff;
+        }
 
-    &__lux {
-      min-height: 500px;
+        &__link {
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: 700;
+          line-height: 40px;
+          color: @bgcGrey;
+          width: 100%;
+          min-height: 100%;
+          display: block;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
     }
 
     .cards__list {
@@ -73,37 +88,6 @@
       &__item {
         color: #fff;
         font-size: 14px;
-      }
-    }
-
-    &__btn {
-      display: block;
-      background-color: #fff;
-      border: 1px solid;
-      width: 259px;
-      min-height: 40px;
-      border-radius: 4px;
-      margin: 0 auto;
-
-      &:hover {
-        background-color: @bgcGrey;
-        border: 1px solid #fff;
-      }
-
-      &__link {
-        text-align: center;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: 700;
-        line-height: 40px;
-        color: @bgcGrey;
-        width: 100%;
-        height: 100%;
-        display: block;
-
-        &:hover {
-          color: #fff;
-        }
       }
     }
   }

@@ -278,7 +278,7 @@ body {
   flex-direction: row;
   align-items: flex-end;
 }
-.main__buy__cards section {
+.main__buy__cards__card {
   width: 300px;
   background-color: #445161;
   border-radius: 5px;
@@ -287,9 +287,7 @@ body {
   border: 2px solid #445161;
   box-sizing: border-box;
 }
-.main__buy__cards__standart__title,
-.main__buy__cards__premium__title,
-.main__buy__cards__lux__title {
+.main__buy__cards__card__title {
   display: block;
   color: #fff;
   font-size: 24px;
@@ -299,9 +297,7 @@ body {
   padding: 13px 0;
   margin: 0;
 }
-.main__buy__cards__standart__price,
-.main__buy__cards__premium__price,
-.main__buy__cards__lux__price {
+.main__buy__cards__card__price {
   display: block;
   background-color: #fff;
   color: #445161;
@@ -311,14 +307,32 @@ body {
   text-align: center;
   padding: 16px 0;
 }
-.main__buy__cards__standart {
-  min-height: 306px;
+.main__buy__cards__card__btn {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #fff;
+  width: 259px;
+  min-height: 40px;
+  border-radius: 4px;
+  margin: 0 auto 20px;
 }
-.main__buy__cards__premium {
-  min-height: 405px;
+.main__buy__cards__card__btn:hover {
+  background-color: #445161;
+  border: 1px solid #fff;
 }
-.main__buy__cards__lux {
-  min-height: 500px;
+.main__buy__cards__card__btn__link {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 40px;
+  color: #445161;
+  width: 100%;
+  min-height: 100%;
+  display: block;
+}
+.main__buy__cards__card__btn__link:hover {
+  color: #fff;
 }
 .main__buy__cards .cards__list {
   list-style-type: decimal;
@@ -329,33 +343,6 @@ body {
 .main__buy__cards .cards__list__item {
   color: #fff;
   font-size: 14px;
-}
-.main__buy__cards__btn {
-  display: block;
-  background-color: #fff;
-  border: 1px solid;
-  width: 259px;
-  min-height: 40px;
-  border-radius: 4px;
-  margin: 0 auto;
-}
-.main__buy__cards__btn:hover {
-  background-color: #445161;
-  border: 1px solid #fff;
-}
-.main__buy__cards__btn__link {
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 700;
-  line-height: 40px;
-  color: #445161;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-.main__buy__cards__btn__link:hover {
-  color: #fff;
 }
 .footer {
   width: 100%;
