@@ -16,21 +16,34 @@
     flex-wrap: wrap;
 
     &__item {
-      width: 48.73%;
+      width: 47.8%;
       margin: 0 30px 14px 0;
       font-size: 14px;
       font-style: italic;
+      position: relative;
 
-      & figcaption {
+      & img {
+        border-radius: 50%;
+        background-color: @bgcGrey;
+        float: left;
+        margin: 5px 15px 0 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      &__text {
         background-color: #ebebeb;
         border-radius: 5px;
         margin: 0 0 0 90px;
         padding: 15px;
         position: relative;
         margin: 5px 0 0 102px;
+        font-size: 16px;
+        line-height: 17px;
       }
 
-      & figcaption:before {
+      &__text:before {
         content: "";
         display: inline-block;
         position: absolute;
@@ -41,20 +54,8 @@
         border-color: transparent #ebebeb transparent transparent;
       }
 
-      img {
-        border-radius: 50%;
-        background-color: @bgcGrey;
-        float: left;
-        margin: 5px 15px 0 0;
-      }
-
-      &__text {
-        font-size: 16px;
-        margin: -2px 0 0 0;
-        line-height: 17px;
-      }
-
       &__author {
+        display: block;
         color: #989898;
         margin: 14px 0 0 0;
       }
