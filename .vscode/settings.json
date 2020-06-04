@@ -4,5 +4,6 @@
       "compress":  false,
       "sourceMap": false,
       "out": "${workspaceRoot}/css/styles.css"
-    }
+    },
+    "AllAutocomplete.showCurrentDocument": true
   }
